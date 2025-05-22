@@ -3,7 +3,7 @@ services:
     build:
       context: ./.dockercontainer        # <-- build context is the folder with Dockerfile
       dockerfile: Dockerfile
-    container_name: bfast_canada
+    container_name: bfast
     ports:
       - "8888:8888"                      # host:container
     volumes:
